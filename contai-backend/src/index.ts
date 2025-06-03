@@ -14,7 +14,7 @@ app.use(cors({
 app.use(express.json());
 app.use(launchRoutes);
 
-const PORT = 3001;
+const PORT = 3001; // porta onde essa api vai rodar
 
 AppDataSource.initialize()
   .then(() => {

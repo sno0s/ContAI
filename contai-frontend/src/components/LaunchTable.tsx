@@ -5,7 +5,7 @@ import { groupByMonthYear } from '../utils/dateUtils';
 interface LaunchTableProps {
   launches: Launch[];
 }
-
+// interface responsável por mostrar as tabelas já estabelecidas dentro do banco de dados
 const LaunchTable: React.FC<LaunchTableProps> = ({ launches }) => {
   const grouped = groupByMonthYear(launches);
 

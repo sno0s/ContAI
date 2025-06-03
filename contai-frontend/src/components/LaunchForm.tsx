@@ -3,6 +3,7 @@ import { Launch, LaunchType } from '../types/Launch';
 import { v4 as uuidv4 } from 'uuid';
 import api from '../services/api';
 
+// interface responsável pelos labels
 interface LaunchFormProps {
   setLaunches: React.Dispatch<React.SetStateAction<Launch[]>>;
 }
@@ -15,7 +16,8 @@ const LaunchForm: React.FC<LaunchFormProps> = ({ setLaunches }) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-
+    
+// verificação das informações (não envia se não estiver tudo preenchido)
     if (!date || !description || !amount || isNaN(Number(amount)) || Number(amount) <= 0) {
       alert('Please fill out all fields correctly.');
       return;

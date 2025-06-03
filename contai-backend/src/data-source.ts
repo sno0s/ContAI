@@ -5,7 +5,7 @@ import { Launch } from './entity/Launch';
 export const AppDataSource = new DataSource({
   type: 'postgres',
   host: 'localhost',
-  port: 5432,
+  port: 5432, //porta do banco de dados
   username: 'postgres',
   password: '2304012232',
   database: 'ContAI',
