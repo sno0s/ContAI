@@ -17,4 +17,7 @@ Ao abrir a home do frontend o site já vai tentar buscar todos os lançamentos d
 
 É possível fazer novos lançamentos e todos os campos precisam estar preenchidos.
 
+<h1>Considerações finais</h1>
+Mesmo que eu não seja aprovado nessa vaga, aprendi bastante sobre como o docker e o postgreSQL funcionam, já tenho alguns projetos pessoais em casa no meu servidor pessoal que rodam em docker e containers mas nunca tinha estudado a fundo, foi mais tranquilo do que eu pensava trabalhar com o postgres e vi algumas coisas parecidas com o MySQL, ainda assim sinto falta do Workbench :(
 
+<img src="/images/postgres_screen.png">
